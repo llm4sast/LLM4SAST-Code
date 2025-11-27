@@ -1,0 +1,2 @@
+"notifyAll()" should be preferred over "notify()"
+notify and notifyAll both wake up sleeping threads waiting on the object’s monitor, but notify only wakes up one single thread, while notifyAll wakes them all up. Unless you do not care which specific thread is woken up, notifyAll should be used instead.

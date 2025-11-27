@@ -1,0 +1,2 @@
+Methods should not have identical implementations
+Two methods having the same implementation are suspicious. It might be that something else was intended. Or the duplication is intentional, which becomes a maintenance burden. private final static String CODE = "bounteous"; public String calculateCode() { doTheThing(); return CODE; } public String getName() { // Noncompliant: duplicates calculateCode doTheThing(); return CODE; } If the identical logic is intentional, the code should be refactored to avoid duplication.

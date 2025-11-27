@@ -1,0 +1,2 @@
+"StandardCharsets" constants should be preferred
+JDK7 introduced the class java.nio.charset.StandardCharsets. It provides constants for all charsets that are guaranteed to be available on every implementation of the Java platform.

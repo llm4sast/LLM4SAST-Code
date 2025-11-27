@@ -1,0 +1,2 @@
+Generic exceptions should never be thrown
+This rule raises an issue when a generic exception (such as Error, RuntimeException, Throwable, or Exception ) is thrown.

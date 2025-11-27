@@ -1,0 +1,2 @@
+Types should be used in lambdas
+Shared coding conventions allow teams to collaborate effectively. While types for lambda arguments are optional, specifying them anyway makes the code clearer and easier to read.

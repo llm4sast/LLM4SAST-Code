@@ -1,0 +1,2 @@
+Tabulation characters should not be used
+The tab width can differ from one development environment to another. Using tabs may require other developers to configure their environment (text editor, preferences, etc.) to read source code. That is why using spaces is preferable.

@@ -1,0 +1,1 @@
+A method uses a static method from java.lang.Math on a constant value. The method's result in this case can be determined statically, and is faster and sometimes more accurate to just use the constant, e.g., sin(0.0).

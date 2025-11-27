@@ -1,0 +1,2 @@
+Conditionals should start on new lines
+Placing an if statement on the same line as the closing } from a preceding if, else, or else if block can lead to confusion and potential errors. It may indicate a missing else statement or create ambiguity for maintainers who might fail to understand that the two statements are unconnected.

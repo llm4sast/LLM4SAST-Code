@@ -1,0 +1,2 @@
+"Collection.isEmpty()" should be used to test for emptiness
+When you call isEmpty(), it clearly communicates the code’s intention, which is to check if the collection is empty. Using size() == 0 for this purpose is less direct and makes the code slightly more complex. Moreover, depending on the implementation, the size() method can have a time complexity of O(n) where n is the number of elements in the collection. On the other hand, isEmpty() simply checks if there is at least one element in the collection, which is a constant time operation, O(1).

@@ -1,0 +1,1 @@
+A method may fail to clean up (close, dispose of) a stream, database object, or other resource requiring an explicit cleanup operation. In general, if a method opens a stream or other resource, the method should use a try/finally block to ensure that the stream or resource is cleaned up before the method returns.

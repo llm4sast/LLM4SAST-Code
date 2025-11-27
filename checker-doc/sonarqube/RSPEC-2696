@@ -1,0 +1,2 @@
+Instance methods should not write to "static" fields
+Correctly updating a static field from a non-static method is tricky to get right and could easily lead to bugs if there are multiple class instances and/or multiple threads in play. Ideally, static fields are only updated from synchronized static methods.

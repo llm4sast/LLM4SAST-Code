@@ -1,0 +1,1 @@
+Using constants in interfaces is a bad practice. Interfaces define types, constants are implementation details better placed in classes or enums. If the constants are best viewed as members of an enumerated type, you should export them with an enum type. For other scenarios, consider using a utility class.

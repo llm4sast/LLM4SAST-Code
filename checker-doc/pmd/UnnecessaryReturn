@@ -1,0 +1,1 @@
+Avoid the use of unnecessary return statements. A return is unnecessary when no instructions follow anyway.

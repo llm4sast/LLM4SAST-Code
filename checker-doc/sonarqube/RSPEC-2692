@@ -1,0 +1,2 @@
+"indexOf" checks should not be for positive numbers
+Most checks against an indexOf value compare it with -1 because 0 is a valid index.

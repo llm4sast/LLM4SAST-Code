@@ -1,0 +1,1 @@
+This is reported when integer overflow occurred by integer operations such as addition, subtraction, and multiplication. For example, int n = INT_MAX; int m = n + 3; generates a INTEGER_OVERFLOW on n + 3.

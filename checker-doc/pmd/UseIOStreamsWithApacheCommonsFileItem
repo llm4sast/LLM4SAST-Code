@@ -1,0 +1,1 @@
+Problem: Use of FileItem.get() and FileItem.getString() could exhaust memory since they load the entire file into memory. Solution: Use FileItem.getInputStream() and buffering.

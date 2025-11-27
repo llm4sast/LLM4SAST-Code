@@ -1,0 +1,1 @@
+Do not use "if" statements whose conditionals are always true or always false.

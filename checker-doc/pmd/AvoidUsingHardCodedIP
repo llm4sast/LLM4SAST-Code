@@ -1,0 +1,1 @@
+Application with hard-coded IP addresses can become impossible to deploy in some cases. Externalizing IP adresses is preferable.

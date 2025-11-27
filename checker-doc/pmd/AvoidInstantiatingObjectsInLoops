@@ -1,0 +1,1 @@
+New objects created within loops should be checked to see if they can created outside them and reused.

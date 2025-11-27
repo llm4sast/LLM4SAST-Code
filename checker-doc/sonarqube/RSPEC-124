@@ -1,0 +1,2 @@
+Track comments matching a regular expression
+This rule template can be used to create rules which will be triggered when the full content of a comment matches a given regular expression. Note that the regular expression should be expressed using the dotall format (where the. character matches any character).

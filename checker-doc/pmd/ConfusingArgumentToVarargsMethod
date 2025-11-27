@@ -1,0 +1,1 @@
+Reports a confusing argument passed to a varargs method. This can occur when an array is passed as a single varargs argument, when the array type is not exactly the type of array that the varargs method expects. If, that array is a subtype of the component type of the expected array type, then it might not be clear what value the called varargs method will receive.

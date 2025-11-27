@@ -1,0 +1,2 @@
+"read" and "readLine" return values should be used
+The Reader.read() and the BufferedReader.readLine() are used for reading data from a data source. The return value of these methods is the data read from the data source, or null when the end of the data source is reached. If the return value is ignored, the data read from the source is thrown away and may indicate a bug.

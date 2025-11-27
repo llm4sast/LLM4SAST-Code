@@ -1,0 +1,2 @@
+Methods should not be named "tostring", "hashcode" or "equal"
+Due to the similar name with the methods Object.toString, Object.hashCode and Object.equals, there is a significant likelihood that a developer intended to override one of these methods but made a spelling error. Even if no such error exists and the naming was done on purpose, these method names can be misleading. Readers might not notice the difference, or if they do, they may falsely assume that the developer made a mistake.

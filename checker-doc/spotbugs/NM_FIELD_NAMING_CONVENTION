@@ -1,0 +1,1 @@
+Names of fields that are not final should be in mixed case with a lowercase first letter and the first letters of subsequent words capitalized. Names of final fields should be all uppercase with words separated by underscores ('_').

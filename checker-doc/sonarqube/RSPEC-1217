@@ -1,0 +1,2 @@
+"Thread.run()" should not be called directly
+This rule raises an issue when Thread.run() is called instead of Thread.start().

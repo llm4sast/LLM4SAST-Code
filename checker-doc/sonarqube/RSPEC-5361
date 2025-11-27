@@ -1,0 +1,2 @@
+"String#replace" should be preferred to "String#replaceAll"
+The underlying implementation of String::replaceAll calls the java.util.regex.Pattern.compile() method each time it is called even if the first argument is not a regular expression. This has a significant performance cost and therefore should be used with care. When String::replaceAll is used, the first argument should be a real regular expression. If it’s not the case, String::replace does exactly the same thing as String::replaceAll without the performance drawback of the regex.

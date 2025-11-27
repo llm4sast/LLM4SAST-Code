@@ -1,0 +1,1 @@
+A method uses pointer equality to compare two references that seem to be of different types. The result of this comparison will always be false at runtime.

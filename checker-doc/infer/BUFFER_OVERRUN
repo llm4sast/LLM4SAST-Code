@@ -1,0 +1,1 @@
+This is reported when outside of buffer bound is accessed. It can corrupt memory and may introduce security issues. For example, int a[3]; a[5] = 42; generates a BUFFER_OVERRUN warning on a[5] = 42;.

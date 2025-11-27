@@ -1,0 +1,1 @@
+A field annotated with @GuardedBy is being accessed by a call-chain that starts at a non-private method without synchronization.

@@ -1,0 +1,2 @@
+"equals(Object obj)" should test the argument's type
+The Object#equals(Object obj) method is used to compare two objects to see if they are equal. The obj parameter’s type is Object, this means that an object of any type can be passed as a parameter to this method. Any class overriding Object#equals(Object obj) should respect this contract, accept any object as an argument, and return false when the argument’s type differs from the expected type.

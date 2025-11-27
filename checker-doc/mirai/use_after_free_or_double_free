@@ -1,0 +1,1 @@
+In Rust, use after free or double free are severe memory vulnerabilities. Use after free occurs when a program accesses memory that has already been freed. Double free means attempting to free the same memory block more than once, which can corrupt the memory management system. Both of them can lead to undefined behavior

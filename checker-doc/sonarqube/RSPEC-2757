@@ -1,0 +1,2 @@
+Non-existent operators like "=+" should not be used
+Using operator pairs ( =+, =-, or =! ) that look like reversed single operators ( +=, -= or != ) is confusing. They compile and run but do not produce the same result as their mirrored counterpart.

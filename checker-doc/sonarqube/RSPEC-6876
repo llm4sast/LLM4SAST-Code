@@ -1,0 +1,2 @@
+Reverse iteration should utilize reversed view
+Java 21 introduces the new Sequenced Collections API, which is applicable to all collections with a defined sequence on their elements, such as LinkedList, TreeSet, and others (see JEP 431 ). For projects using Java 21 and onwards, this API should be utilized instead of workaround implementations that were necessary before Java 21. This rule reports when a collection is iterated in reverse through explicit implementation or workarounds, instead of using the reversed view of the collection.

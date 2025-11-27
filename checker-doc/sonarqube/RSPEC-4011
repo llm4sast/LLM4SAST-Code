@@ -1,0 +1,2 @@
+Track uses of disallowed constructors
+This rule allows banning usage of certain constructors.

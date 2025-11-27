@@ -1,0 +1,6 @@
+This code casts the result of an integral division (e.g., int or long division) operation to double or float. Doing division on integers truncates the result to the integer value closest to zero. The fact that the result was cast to double suggests that this precision should have been retained, e.g.:
+```
+int x=2,y=5;
+double value1=x/y; // Wrong: yields result 0.0
+double value2=x/(double)y; // Right: yields result 0.4
+```

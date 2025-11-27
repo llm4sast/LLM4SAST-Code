@@ -1,0 +1,1 @@
+Reports explicit array creation when a varargs is expected. For instance: java Arrays.asList(new String[] { "foo", "bar", });  can be replaced by: java Arrays.asList("foo", "bar"); 

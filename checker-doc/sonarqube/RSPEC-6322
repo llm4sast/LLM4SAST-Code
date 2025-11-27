@@ -1,0 +1,2 @@
+Unsupported methods should not be called on some collection implementations
+Many modification methods in the collection interfaces are optional. Some implementations do not implement those methods and throw a runtime exception ( UnsupportedOperationException ). To fix this issue, make sure you call modification methods on a collection implementation that supports them.

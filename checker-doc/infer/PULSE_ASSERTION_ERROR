@@ -1,0 +1,1 @@
+This error is reported when Infer detects a path that leads to an assertion failure.

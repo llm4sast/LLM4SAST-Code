@@ -1,0 +1,2 @@
+"String.isEmpty()" should be used to test for emptiness
+Calling String.isEmpty() clearly communicates the code’s intention, which is to test if the string is empty. Using String.length() == 0 is less direct and makes the code less readable.

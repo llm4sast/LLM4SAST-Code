@@ -1,0 +1,1 @@
+Position literals first in all String comparisons, if the second argument is null then NullPointerExceptions can be avoided, they will just return false.

@@ -1,0 +1,2 @@
+"@Bean" methods for Singleton should not be invoked in "@Configuration" when proxyBeanMethods is false
+Spring proxies are based on the Proxy design pattern and serve as intermediaries to other resources, offering extra features at a slight performance penalty.

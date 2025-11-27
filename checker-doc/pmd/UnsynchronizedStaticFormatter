@@ -1,0 +1,1 @@
+Instances of java.text.Format are generally not synchronized. Sun recommends using separate format instances for each thread. If multiple threads must access a static formatter, the formatter must be synchronized on block level.

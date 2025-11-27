@@ -1,0 +1,2 @@
+Recursion should not be infinite
+Recursive methods must always reach a base case where the recursion is stopped. Infinite recursion is caused by logical errors and it will crash your application.

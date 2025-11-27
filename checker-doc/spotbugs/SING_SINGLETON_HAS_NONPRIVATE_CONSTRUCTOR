@@ -1,0 +1,1 @@
+This class is using singleton design pattern and has non-private constructor. Given that, it is possible to create a copy of the object, thus violating the singleton pattern. The easier solution would be making the constructor private.

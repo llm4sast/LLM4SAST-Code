@@ -1,0 +1,1 @@
+Super method is annotated with @OverridingMethodsMustInvokeSuper, but the overriding method isn't calling the super method.

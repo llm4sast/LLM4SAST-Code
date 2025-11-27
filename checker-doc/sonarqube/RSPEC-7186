@@ -1,0 +1,2 @@
+Methods returning "Page" or "Slice" must take "Pageable" as an input parameter
+Spring Data Repository supports paging for queries, allowing you to return results in small, manageable chunks rather than retrieving an entire large result set. The conventional approach to paginating data in Spring is to use the Pageable interface to control pagination and to store the query results into a Page or Slice. If a query declaration in a Spring Data Repository returns a Page or Slice without taking a Pageable as an input, it raises a runtime exception.

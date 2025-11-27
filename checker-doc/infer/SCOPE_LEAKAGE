@@ -1,0 +1,1 @@
+This issue type indicates that a class with scope annotation A stores a field with whose (dynamic) type (or one of its super types) is annotated with scope B such that a scope nesting restriction is violated. By "stores", we mean either directly or transitively.

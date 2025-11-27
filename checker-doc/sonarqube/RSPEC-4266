@@ -1,0 +1,2 @@
+"Stream.collect()" calls should not be redundant
+When using the Stream API, call chains should be simplified as much as possible to improve readability and maintainability.

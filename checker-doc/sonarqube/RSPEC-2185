@@ -1,0 +1,2 @@
+Do not perform unnecessary mathematical operations
+Some mathematical operations are unnecessary and should not be performed because their results are predictable. For instance, anyValue % 1 will always return 0, as any integer value can be divided by 1 without remainder. Similarly, casting a non-floating-point to a floating-point value and then passing it to Math.round, Math.ceil, or Math.floor is also unnecessary, as the result will always be the original value.

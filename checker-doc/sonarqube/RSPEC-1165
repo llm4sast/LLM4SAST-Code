@@ -1,0 +1,2 @@
+Exception classes should have final fields
+When a class has all final fields, the compiler ensures that the object’s state remains constant. It also enforces a clear design intent of immutability, making the class easier to reason about and use correctly.

@@ -1,0 +1,1 @@
+Method intentionally throws RuntimeException. Throwing a RuntimeException may cause errors, like the caller not being able to examine the exception and therefore cannot properly recover from it. Moreover, it can force the caller to catch RuntimeException and therefore violate the SEI CERT ERR08-J rule.

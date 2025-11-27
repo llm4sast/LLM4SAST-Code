@@ -1,0 +1,2 @@
+Lambdas containing only one statement should not nest this statement in a block
+This rule raises an issue when a lambda expression uses block notation while expression notation could be used.

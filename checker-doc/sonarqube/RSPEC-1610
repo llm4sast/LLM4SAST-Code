@@ -1,0 +1,2 @@
+Abstract classes without fields should be converted to interfaces
+This rule is deprecated, and will eventually be removed.

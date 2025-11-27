@@ -1,0 +1,2 @@
+"Iterator.hasNext()" should not call "Iterator.next()"
+Calling Iterator.hasNext() is not supposed to have any side effects and hence should not change the iterator’s state. Iterator.next() advances the iterator by one item. So calling it inside Iterator.hasNext() breaks the hasNext() contract and will lead to unexpected behavior in production.

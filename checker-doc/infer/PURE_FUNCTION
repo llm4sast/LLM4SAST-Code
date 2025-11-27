@@ -1,0 +1,8 @@
+This issue type indicates pure functions. Pure function means no change to outside state, e.g., below function is marked as pure:
+```java
+int local_write_pure(int x, int y) {
+  int k = x + y;
+  k++;
+  return k;
+}
+```

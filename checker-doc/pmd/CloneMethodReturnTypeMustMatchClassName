@@ -1,0 +1,1 @@
+If a class implements Cloneable the return type of the method clone() must be the class name. That way, the caller of the clone method doesn't need to cast the returned clone to the correct type.

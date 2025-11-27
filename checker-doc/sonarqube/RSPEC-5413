@@ -1,0 +1,2 @@
+'List.remove()' should not be used in ascending 'for' loops
+When List.remove() is called, the list shrinks, and the indices of all elements following the removed element are decremented by one. If this operation is performed within a loop that iterates through the elements in ascending order, it will cause the loop to skip the element immediately following the removed element.

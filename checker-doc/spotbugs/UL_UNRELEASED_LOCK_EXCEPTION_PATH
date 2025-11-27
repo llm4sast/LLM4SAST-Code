@@ -1,0 +1,1 @@
+A method acquires a JSR-166 (java.util.concurrent) lock, but does not release it on all exception paths out of the method.

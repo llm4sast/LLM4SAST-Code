@@ -1,0 +1,1 @@
+Always check the return values of navigation methods (next, previous, first, last) of a ResultSet. If the value return is 'false', it should be handled properly.

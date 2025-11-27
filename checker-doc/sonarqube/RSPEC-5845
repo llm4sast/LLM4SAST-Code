@@ -1,0 +1,2 @@
+Assertions comparing incompatible types should not be made
+Assertions comparing incompatible types always fail, and negative assertions always pass. At best, negative assertions are useless. At worst, the developer loses time trying to fix his code logic before noticing wrong assertions.

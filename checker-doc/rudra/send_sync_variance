@@ -1,0 +1,1 @@
+This occurs when a type generic over T implements Send or Sync without having correct bounds on T.

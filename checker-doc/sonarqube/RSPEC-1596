@@ -1,0 +1,2 @@
+"Collections.EMPTY_LIST", "EMPTY_MAP", and "EMPTY_SET" should not be used
+This rule raises an issue when the Collections.EMPTY_* fields are used instead of the Collections.empty*() methods.

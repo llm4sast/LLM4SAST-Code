@@ -1,0 +1,1 @@
+A method implements an interface signature annotated with @Lockless but which transitively acquires a lock.

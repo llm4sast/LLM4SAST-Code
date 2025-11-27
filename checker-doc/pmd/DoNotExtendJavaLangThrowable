@@ -1,0 +1,1 @@
+Extend Exception or RuntimeException instead of Throwable.

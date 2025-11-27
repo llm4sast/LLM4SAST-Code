@@ -1,0 +1,2 @@
+Functional Interfaces should be as specialised as possible
+The java.util.function package provides a large array of functional interface definitions for use in lambda expressions and method references. In general it is recommended to use the more specialised form to avoid auto-boxing. For instance IntFunction<Foo> should be preferred over Function<Integer, Foo>.

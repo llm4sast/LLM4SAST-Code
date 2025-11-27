@@ -1,0 +1,1 @@
+Having a lot of control variables in a 'for' loop makes it harder to see what range of values the loop iterates over. By default this rule allows a regular 'for' loop with only one variable.

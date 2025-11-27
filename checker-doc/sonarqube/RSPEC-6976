@@ -1,0 +1,2 @@
+Consumed Stream pipelines should not be reused
+Stream operations are divided into intermediate and terminal operations, and are combined to form stream pipelines. A stream should be operated on (invoking an intermediate or terminal stream operation) only once.

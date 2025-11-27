@@ -1,0 +1,1 @@
+This instruction assigns a class literal to a variable and then never uses it. The behavior of this differs in Java 1.4 and in Java 5. In Java 1.4 and earlier, a reference to Foo.class would force the static initializer for Foo to be executed, if it has not been executed already. In Java 5 and later, it does not.

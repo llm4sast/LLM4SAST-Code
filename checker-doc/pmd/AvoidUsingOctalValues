@@ -1,0 +1,1 @@
+Integer literals should not start with zero since this denotes that the rest of literal will be interpreted as an octal value.

@@ -1,0 +1,2 @@
+Allowing deserialization of LDAP objects is security-sensitive
+JNDI supports the deserialization of objects from LDAP directories, which can lead to remote code execution.

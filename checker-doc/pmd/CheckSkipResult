@@ -1,0 +1,1 @@
+The skip() method may skip a smaller number of bytes than requested. Check the returned value to find out if it was the case or not.

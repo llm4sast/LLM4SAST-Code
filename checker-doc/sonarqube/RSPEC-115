@@ -1,0 +1,2 @@
+Constant names should comply with a naming convention
+Constants should be named consistently to communicate intent and improve maintainability. Rename your constants to follow your project’s naming convention to address this issue.

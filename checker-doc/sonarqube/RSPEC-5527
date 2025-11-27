@@ -1,0 +1,2 @@
+Server hostnames should be verified during SSL/TLS connections
+This vulnerability allows attackers to impersonate a trusted host.

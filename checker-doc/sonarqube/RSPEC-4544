@@ -1,0 +1,2 @@
+Using unsafe Jackson deserialization configuration is security-sensitive
+Using unsafe Jackson deserialization configuration is security-sensitive. It has led in the past to the following vulnerabilities: CVE-2017-4995 CVE-2018-19362 When Jackson is configured to allow Polymorphic Type Handling (aka PTH), formerly known as Polymorphic Deserialization, "deserialization gadgets" may allow an attacker to perform remote code execution.

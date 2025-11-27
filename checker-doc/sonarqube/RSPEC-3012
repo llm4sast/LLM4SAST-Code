@@ -1,0 +1,2 @@
+Arrays and lists should not be copied using loops
+The JDK provides a set of built-in methods to copy the contents of an array into another array. Using a loop to perform the same operation is less clear, more verbose and should be avoided.

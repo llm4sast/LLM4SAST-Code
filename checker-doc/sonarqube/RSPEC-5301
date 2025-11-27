@@ -1,0 +1,2 @@
+"ActiveMQConnectionFactory" should not be vulnerable to malicious code deserialization
+ActiveMQ can send/receive JMS Object messages (ObjectMessage in ActiveMQ context) to comply with JMS specifications. Internally, ActiveMQ relies on Java’s serialization mechanism for the marshaling and unmarshalling of the messages' payload. Applications should restrict the types that can be unserialized from JMS messages.

@@ -1,0 +1,2 @@
+"Object.wait" should not be called on objects that implement "java.util.concurrent.locks.Condition"
+The java.util.concurrent.locks.Condition interface provides an alternative to the Object monitor methods ( wait, notify and notifyAll ). Hence, the purpose of implementing said interface is to gain access to its more nuanced await methods. Consequently, calling the method Object.wait on a class implementing the Condition interface is contradictory and should be avoided. Use Condition.await instead.

@@ -1,0 +1,2 @@
+Multiline blocks should be enclosed in curly braces
+Having inconsistent indentation and omitting curly braces from a control structure, such as an if statement or for loop, is misleading and can induce bugs.

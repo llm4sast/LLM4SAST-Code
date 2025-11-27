@@ -1,0 +1,1 @@
+A method annoted as being on UIThread acquires a lock. This could be a potential performance issue.

@@ -1,0 +1,16 @@
+import sfBugs.*;
+public class Bug1948275 {
+    public static String trim(String value) { return value == null ? value : value.trim(); }
+    public static String trim2(String value) {
+        if (value == null) { return value; }
+        return "Hello";
+    }
+    public static String trim3(String value) {
+        if (value == null) {
+            String s = "Hello";
+            s += value; 
+            return s;
+        }
+        return "Hello";
+    }
+}

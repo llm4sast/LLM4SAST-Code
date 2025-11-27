@@ -1,0 +1,1 @@
+For any method that returns an collection (such as an array, Collection or Map), it is better to return an empty one rather than a null reference. This removes the need for null checking all results and avoids inadvertent NullPointerExceptions.

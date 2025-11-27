@@ -1,0 +1,1 @@
+A logger should normally be defined private static final and be associated with the correct class. private final Log log; is also allowed for rare cases where loggers need to be passed around, with the restriction that the logger needs to be passed into the constructor.

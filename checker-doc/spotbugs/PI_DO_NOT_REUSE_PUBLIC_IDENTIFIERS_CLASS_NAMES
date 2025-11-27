@@ -1,0 +1,1 @@
+It is a good practice to avoid reusing public identifiers from the Java Standard Library as class names. This is because the Java Standard Library is a part of the Java platform and is expected to be available in all Java environments. Doing so can lead to naming conflicts and confusion, making it harder to understand and maintain the code.

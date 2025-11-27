@@ -1,0 +1,2 @@
+Primitives should not be boxed just for "String" conversion
+This rule is deprecated; use S1158 instead.

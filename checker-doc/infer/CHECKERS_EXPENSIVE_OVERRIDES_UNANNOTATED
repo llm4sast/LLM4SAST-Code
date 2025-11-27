@@ -1,0 +1,1 @@
+A method annotated with @Expensive overrides an un-annotated method.

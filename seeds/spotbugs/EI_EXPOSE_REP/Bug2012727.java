@@ -1,0 +1,7 @@
+import java.text.SimpleDateFormat;
+enum Bug2012727 {
+    mmddyyyy_WithTimeSlashDelimited("MM/dd/yyyy HH:mm:ss"), ddyymmM_dateOnlyNOTDelimited("ddyyMMM");
+    private SimpleDateFormat simpleDateFormat;
+    private Bug2012727(String format) { simpleDateFormat = new SimpleDateFormat(format); }
+    public SimpleDateFormat getFormat() { return simpleDateFormat; }
+}

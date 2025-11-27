@@ -1,0 +1,1 @@
+XML signatures should be validated securely. XML signatures are a method used to ensure the integrity and authenticity of XML documents. However, if XML signatures are not validated securely, it can lead to potential vulnerabilities.

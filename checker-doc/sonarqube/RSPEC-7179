@@ -1,0 +1,2 @@
+@Cacheable and @CachePut should not be combined
+@Cacheable annotation is used to store the result of a method and avoid executing it for the same inputs. @CachePut instead is used to force the execution of a method and store the result in the cache. Annotating a method with both will produce unreliable behavior, except for specific corner-cases when their condition() or unless() expressions are mutually exclusive. Hence this pattern is strongly discouraged and an issue will be raised on such cases.

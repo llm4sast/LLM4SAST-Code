@@ -1,0 +1,2 @@
+"compareTo" should not return "Integer.MIN_VALUE"
+The Comparable.compareTo method returns a negative integer, zero, or a positive integer to indicate whether the object is less than, equal to, or greater than the parameter. The sign of the return value or whether it is zero is what matters, not its magnitude. Returning a positive or negative constant value other than the basic ones (-1, 0, or 1) provides no additional information to the caller. Moreover, it could potentially confuse code readers who are trying to understand its purpose.

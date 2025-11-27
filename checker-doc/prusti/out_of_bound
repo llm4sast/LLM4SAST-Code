@@ -1,0 +1,2 @@
+In Rust, an array out - of - bound error happens when a program tries to access an array element using an index that is outside the valid range of the array. Since Rust arrays have a fixed size, valid indices are from 0 to array.len() - 1.
+When such an out - of - bound access occurs, Rust will cause a panic at runtime. 

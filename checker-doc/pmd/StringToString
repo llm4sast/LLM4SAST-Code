@@ -1,0 +1,1 @@
+Avoid calling toString() on objects already known to be string instances; this is unnecessary.

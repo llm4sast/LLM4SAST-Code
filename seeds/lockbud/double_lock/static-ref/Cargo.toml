@@ -1,0 +1,8 @@
+[package]
+name = "static-ref"
+version = "0.1.0"
+authors = [ "BurtonQin <bobbqqin@gmail.com>",]
+edition = "2021"
+
+[dependencies]
+lazy_static = "1.4.0"

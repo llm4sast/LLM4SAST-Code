@@ -1,0 +1,2 @@
+"@Override" should be used on overriding and implementing methods
+While not mandatory, using the @Override annotation on compliant methods improves readability by making it explicit that methods are overridden. A compliant method either overrides a parent method or implements an interface or abstract method.

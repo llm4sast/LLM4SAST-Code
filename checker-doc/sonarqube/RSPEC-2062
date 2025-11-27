@@ -1,0 +1,2 @@
+"readResolve" methods should be inheritable
+Developers may want to add some logic to handle deserialized objects before they are returned to the caller. This can be achieved by implementing the readResolve method. Non-final classes implementing readResolve should not set its visibility to private as this would make it unavailable to child classes. Instead, mark readResolve as protected, allowing it to be inherited.

@@ -1,0 +1,2 @@
+Nullable injected fields and parameters should provide a default value
+SpEL, the Spring Expression Languages allows developers fine-grained control over the values injected into fields and parameters. Using the @Value annotation, it is possible to inject values from sources such as system properties.

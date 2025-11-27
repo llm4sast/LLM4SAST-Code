@@ -1,0 +1,2 @@
+Exceptions should not be thrown in finally blocks
+If an exception is already being thrown within the try block or caught in a catch block, throwing another exception in the finally block will override the original exception. This means that the original exception’s message and stack trace will be lost, potentially making it challenging to diagnose and troubleshoot the root cause of the problem.

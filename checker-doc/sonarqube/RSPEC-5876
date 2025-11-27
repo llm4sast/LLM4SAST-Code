@@ -1,0 +1,2 @@
+A new session should be created during user authentication
+An attacker may trick a user into using a predetermined session identifier. Consequently, this attacker can gain unauthorized access and impersonate the user’s session. This kind of attack is called session fixation, and protections against it should not be disabled.

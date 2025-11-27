@@ -1,0 +1,1 @@
+Instance-getter method of class using singleton design pattern is not synchronized. When this method is invoked by two or more threads simultaneously, multiple instantiation of a singleton class becomes possible.

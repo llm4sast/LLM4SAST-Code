@@ -1,0 +1,2 @@
+Interfaces should not solely consist of constants
+This rule raises an issue when an interface consists only of constant definitions without other members.

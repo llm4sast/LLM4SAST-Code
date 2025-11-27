@@ -1,0 +1,1 @@
+The code synchronizes on a boxed primitive constant, e.g., Boolean.TRUE and FALSE. Since there normally exist only two Boolean objects, this code could be synchronizing on the same object as other, unrelated code, leading to unresponsiveness and possible deadlock.

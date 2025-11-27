@@ -1,0 +1,1 @@
+Methods that return boolean or Boolean results should be named as predicate statements to denote this. I.e., 'isReady()', 'hasValues()', 'canCommit()', 'willFail()', etc. Avoid the use of the 'get' prefix for these methods.

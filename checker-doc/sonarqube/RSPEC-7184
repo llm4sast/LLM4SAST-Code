@@ -1,0 +1,2 @@
+"@Scheduled" annotation should only be applied to no-arg methods
+According to Spring documentation, the @Scheduled annotation can only be applied to methods without arguments. Applying @Scheduled to a method with arguments will result in a runtime error.

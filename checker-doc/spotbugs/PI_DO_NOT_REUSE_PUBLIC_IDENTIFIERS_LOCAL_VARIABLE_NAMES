@@ -1,0 +1,1 @@
+When declaring local variables in Java, it is a good practice to refrain from reusing public identifiers from the Java Standard Library. Reusing these identifiers as local variable names can lead to confusion, hinder code comprehension, and potentially cause conflicts with existing publicly available identifier names from the Java Standard Library.

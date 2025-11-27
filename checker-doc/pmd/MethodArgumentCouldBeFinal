@@ -1,0 +1,1 @@
+Reports method and constructor parameters that can be made final because they are never reassigned within the body of the method.

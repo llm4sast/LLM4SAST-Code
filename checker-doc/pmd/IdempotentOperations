@@ -1,0 +1,1 @@
+Avoid idempotent operations - they have no effect.

@@ -1,0 +1,2 @@
+@InitBinder methods should have void return type
+Spring provides the @InitBinder annotation to initialize a WebDataBinder instance for controllers. This is useful to bind request parameters to a model object, and to plug converters and formatters into this process. Methods annotated with @InitBinder must not have a return value, otherwise the controller containing them will throw an exception when invoked.

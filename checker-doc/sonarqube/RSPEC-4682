@@ -1,0 +1,2 @@
+"@CheckForNull" or "@Nullable" should not be used on primitive types
+By definition, primitive types are not Objects and so they can’t be null. Adding @CheckForNull or @Nullable on primitive types adds confusion and is useless.

@@ -1,0 +1,2 @@
+String operations with predictable outcomes should be avoided
+Operations performed on a string with predictable outcomes should be avoided.

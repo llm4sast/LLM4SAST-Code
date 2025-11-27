@@ -1,0 +1,1 @@
+Unused Private Method detects when a private method is declared but is unused.

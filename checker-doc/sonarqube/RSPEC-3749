@@ -1,0 +1,2 @@
+Members of Spring components should be injected
+Spring @Component, @Controller, @RestController, @Service, and @Repository classes are singletons by default, meaning only one instance of the class is ever instantiated in the application. Typically such a class might have a few static members, such as a logger, but all non- static members should be managed by Spring.

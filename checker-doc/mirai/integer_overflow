@@ -1,0 +1,1 @@
+In Rust, integer overflow occurs when an integer calculation exceeds the maximum or minimum value that the integer type can represent, e.g., adding two large positive integers of a specific integer type might result in a value beyond its upper limit

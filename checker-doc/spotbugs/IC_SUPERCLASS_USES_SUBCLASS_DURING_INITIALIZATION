@@ -1,0 +1,1 @@
+During the initialization of a class, the class makes an active use of a subclass. That subclass will not yet be initialized at the time of this use.

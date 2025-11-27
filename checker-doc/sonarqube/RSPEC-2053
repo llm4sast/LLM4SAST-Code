@@ -1,0 +1,1 @@
+Password hashing functions should use an unpredictable salt. This vulnerability increases the likelihood that attackers are able to compute the cleartext of password hashes.

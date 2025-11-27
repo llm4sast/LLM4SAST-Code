@@ -1,0 +1,1 @@
+Unless an annotation has itself been annotated with @Retention(RetentionPolicy.RUNTIME), the annotation cannot be observed using reflection (e.g., using the isAnnotationPresent method).

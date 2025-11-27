@@ -1,0 +1,1 @@
+Reports functional interfaces that were not explicitly declared as such with the annotation @FunctionalInterface. If an interface is accidentally a functional interface, then it should bear a @SuppressWarnings("PMD.ImplicitFunctionalInterface") annotation to make this clear.

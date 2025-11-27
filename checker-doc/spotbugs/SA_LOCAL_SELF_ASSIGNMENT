@@ -1,0 +1,1 @@
+A method contains a self assignment of a local variable; e.g.: `x = x;`. Such assignments are useless, and may indicate a logic error or typo.

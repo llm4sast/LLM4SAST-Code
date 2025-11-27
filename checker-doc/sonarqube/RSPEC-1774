@@ -1,0 +1,2 @@
+The ternary operator should not be used
+Ternary expressions, while concise, can often lead to code that is difficult to read and understand, especially when they are nested or complex. Prioritizing readability fosters maintainability and reduces the likelihood of bugs. Therefore, they should be removed in favor of more explicit control structures, such as if / else statements, to improve the clarity and readability of the code.

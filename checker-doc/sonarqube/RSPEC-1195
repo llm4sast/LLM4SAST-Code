@@ -1,0 +1,2 @@
+Array designators "[]" should be located after the type in method signatures
+Placing the array designators [] after the type helps maintain backward compatibility with older versions of the Java SE platform. This syntax contributes to better readability as it becomes easier to distinguish between array types and non-array types. It helps convey the intention of the method to both the developer implementing it and the developer using it.

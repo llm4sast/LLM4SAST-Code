@@ -1,0 +1,1 @@
+A potentially costly operation on a regular expression occurs on the UI thread.

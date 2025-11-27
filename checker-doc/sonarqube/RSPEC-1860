@@ -1,0 +1,2 @@
+Synchronization should not be done on instances of value-based classes
+In Java, value-based classes are those for which instances are final and immutable, like String, Integer and so on, and their identity relies on their value and not their reference. When a variable of one of these types is instantiated, the JVM caches its value, and the variable is just a reference to that value.

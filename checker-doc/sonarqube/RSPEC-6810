@@ -1,0 +1,2 @@
+Async methods should return void or Future
+The Spring framework provides the annotation Async to mark a method (or all methods of a type) as a candidate for asynchronous execution. Asynchronous methods do not necessarily, by their nature, return the result of their calculation immediately. Hence, it is unexpected and in clear breach of the Async contract for such methods to have a return type that is neither void nor a Future type.

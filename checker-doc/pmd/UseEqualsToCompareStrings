@@ -1,0 +1,1 @@
+Using '==' or '!=' to compare strings is only reliable if the interned string (String#intern()) is used on both sides. Use the equals() method instead.

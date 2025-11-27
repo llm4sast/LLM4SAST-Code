@@ -1,0 +1,2 @@
+"BigDecimal(double)" should not be used
+The BigDecimal is used to represents immutable, arbitrary-precision signed decimal numbers. Differently from the BigDecimal, the double primitive type and the Double type have limited precision due to the use of double-precision 64-bit IEEE 754 floating point. Because of floating point imprecision, the BigDecimal(double) constructor can be somewhat unpredictable.

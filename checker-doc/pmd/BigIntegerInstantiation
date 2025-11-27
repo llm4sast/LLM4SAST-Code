@@ -1,0 +1,1 @@
+Don't create instances of already existing BigInteger (BigInteger.ZERO, BigInteger.ONE), for Java 1.5 onwards, BigInteger.TEN and BigDecimal (BigDecimal.ZERO, BigDecimal.ONE, BigDecimal.TEN) and for Java 9 onwards BigInteger.TWO.

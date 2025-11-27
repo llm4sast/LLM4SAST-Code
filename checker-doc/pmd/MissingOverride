@@ -1,0 +1,1 @@
+Annotating overridden methods with @Override ensures at compile time that the method really overrides one, which helps refactoring and clarifies intent.

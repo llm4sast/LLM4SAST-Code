@@ -1,0 +1,1 @@
+Assertions must not be used to validate arguments of public methods because the validations are not performed if assertions are disabled.

@@ -1,0 +1,2 @@
+SpEL expression should have a valid syntax
+This rule reports syntax errors in Spring Expression Language (SpEL) expressions.

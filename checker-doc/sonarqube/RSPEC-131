@@ -1,0 +1,2 @@
+"switch" statements should have "default" clauses
+The requirement for a final default clause is defensive programming. The clause should either take appropriate action, or contain a suitable comment as to why no action is taken.

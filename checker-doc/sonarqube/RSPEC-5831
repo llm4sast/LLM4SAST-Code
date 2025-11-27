@@ -1,0 +1,2 @@
+AssertJ configuration should be applied
+A org.assertj.core.configuration.Configuration will be effective only once you call Configuration.apply() or Configuration.applyAndDisplay().

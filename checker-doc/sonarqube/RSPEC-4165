@@ -1,0 +1,2 @@
+Assignments should not be redundant
+The transitive property says that if a == b and b == c, then a == c. In such cases, there’s no point in assigning a to c or vice versa because they’re already equivalent.

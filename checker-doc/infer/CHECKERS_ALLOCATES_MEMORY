@@ -1,0 +1,1 @@
+A method annotated with @NoAllocation transitively calls new.

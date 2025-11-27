@@ -1,0 +1,1 @@
+A class (using singleton design pattern) directly or indirectly implements the Serializable interface, which allows the class to be serialized. Deserialization makes multiple instantiation of a singleton class possible, and therefore should be avoided. For more information.

@@ -1,0 +1,2 @@
+Methods annotated with "@BeforeTransaction" or "@AfterTransaction" must respect the contract
+In tests configured with Spring’s @Transactional annotation, methods annotated with @BeforeTransaction or @AfterTransaction must be void and have no arguments. These methods are executed before or after a transaction, respectively. Deviating from this contract by having a non-void return type or accepting arguments will cause Spring to throw a runtime error.

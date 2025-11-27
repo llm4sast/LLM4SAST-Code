@@ -1,0 +1,1 @@
+Reports loops that can be safely replaced with the foreach syntax. The rule considers loops over lists, arrays and iterators. A loop is safe to replace if it only uses the index variable to access an element of the list or array, only has one update statement, and loops through *every* element of the list or array left to right.

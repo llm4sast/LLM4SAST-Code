@@ -1,0 +1,2 @@
+Chained AssertJ assertions should be simplified to the corresponding dedicated assertion
+AssertJ contains many assertions methods specific to common types. Both versions will test the same things, but the dedicated one will provide a better error message, simplifying the debugging process. This rule reports an issue when an assertion can be simplified to a dedicated one. The array below gives a non-exhaustive list of assertion reported by the rule. Code behaving similarly, or with a negation will also be reported.

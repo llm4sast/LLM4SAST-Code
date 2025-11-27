@@ -1,0 +1,1 @@
+The method name and return type are suspiciously close to hashCode(), which may denote an intention to override the hashCode() method.

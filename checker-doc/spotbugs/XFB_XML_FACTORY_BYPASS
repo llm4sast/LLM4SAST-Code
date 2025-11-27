@@ -1,0 +1,1 @@
+A method allocates a specific implementation of an xml interface. It is preferable to use the supplied factory classes to create these objects so that the implementation can be changed at runtime, e.g., javax.xml.parsers.DocumentBuilderFactory.

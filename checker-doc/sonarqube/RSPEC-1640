@@ -1,0 +1,2 @@
+Maps with keys that are enum values should use the EnumMap implementation
+If all the keys in a Map are values from a single enum, it is recommended to use an EnumMap as the specific implementation. An EnumMap, which has the advantage of knowing all possible keys in advance, is more efficient compared to other implementations, as it can use a simple array as its underlying data structure.

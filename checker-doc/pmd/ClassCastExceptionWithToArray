@@ -1,0 +1,1 @@
+When deriving an array of a specific class from your Collection, one should provide an array of the same class as the parameter of the toArray() method. Doing otherwise will result in a ClassCastException.

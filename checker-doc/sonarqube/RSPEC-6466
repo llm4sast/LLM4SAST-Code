@@ -1,0 +1,2 @@
+Accessing an array element should not trigger an ArrayIndexOutOfBoundsException
+An array index out-of-bounds exception is a bug class that occurs in Java when a program tries to access an array element that does not exist. This bug can cause your program to crash or behave unexpectedly. To fix an array index out of bounds exception in Java, you should always ensure that you are accessing array elements within the bounds of the array.

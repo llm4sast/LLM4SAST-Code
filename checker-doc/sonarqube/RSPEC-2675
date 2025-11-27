@@ -1,0 +1,2 @@
+"readObject" should not be "synchronized"
+The readObject method is implemented when a Serializable object requires special handling to be reconstructed from a file. The object created by readObject is accessed only by the thread that called the method, thus using the synchronized keyword in this context is unnecessary and causes confusion.

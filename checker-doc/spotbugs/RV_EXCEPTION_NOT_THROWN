@@ -1,0 +1,1 @@
+This code creates an exception (or error) object, but does not do anything, e.g., `if (x < 0) { new IllegalArgumentException("x must be nonnegative"); }`.

@@ -1,0 +1,2 @@
+"clone" should not be overridden
+This rule raises an issue when a class overrides the Object.clone method instead of resorting to a copy constructor or other copy mechanisms.

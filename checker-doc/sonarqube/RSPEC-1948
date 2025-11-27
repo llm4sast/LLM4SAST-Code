@@ -1,0 +1,2 @@
+Fields in a "Serializable" class should either be transient or serializable
+This rule raises an issue on a non-transient and non-serializable field within a serializable class, if said class does not have writeObject and readObject methods defined.

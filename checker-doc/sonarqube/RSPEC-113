@@ -1,0 +1,2 @@
+Files should end with a newline
+Some tools work better when files end with a newline. This rule simply generates an issue if it is missing.

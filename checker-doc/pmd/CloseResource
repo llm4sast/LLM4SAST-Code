@@ -1,0 +1,1 @@
+Ensure that resources (like java.sql.Connection, java.sql.Statement, and java.sql.ResultSet objects and any subtype of java.lang.AutoCloseable) are always closed after use. Failing to do so might result in resource leaks.

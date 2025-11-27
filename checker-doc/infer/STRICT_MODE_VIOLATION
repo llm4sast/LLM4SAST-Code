@@ -1,0 +1,1 @@
+Android has a feature called strict mode, which if enabled, will flag the occasions where the main thread makes a call that results in disk I/O, waiting on a network socket, etc. The analysis catching starvation errors and deadlocks has the ability to statically detect such violations.

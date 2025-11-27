@@ -1,0 +1,2 @@
+Use built-in "Math.clamp" methods
+In Java 21 the java.lang.Math class was updated with the static method Math.clamp, to clamp a numerical value between a min and a max value. Using this built-in method is now the preferred way to restrict to a given interval, as it is more readable and less error-prone.

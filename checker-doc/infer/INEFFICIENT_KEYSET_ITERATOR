@@ -1,0 +1,1 @@
+This issue is raised when iterating over a HashMap with `keySet()` iterator or looking up the key each time. Instead, it is more efficient to iterate over the loop with entrySet which returns key-vaue pairs and gets rid of the hashMap lookup.

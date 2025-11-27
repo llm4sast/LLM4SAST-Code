@@ -1,0 +1,2 @@
+Bluetooth should be configured to use low power
+BluetoothGATT is a class to provide a functionality to enable communication with Bluetooth Smart or Smart Ready devices. To connect to a remote peripheral device, a BluetoothGattCallback is used and a method BluetoothDevice#connectGatt is used to get an instance of this class. GATT-capable devices can be discovered using the Bluetooth device discovery or BLE scan process.

@@ -1,0 +1,1 @@
+Server certificates should be verified during SSL/TLS connections. This vulnerability makes it possible that an encrypted communication is intercepted.

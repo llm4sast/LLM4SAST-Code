@@ -1,0 +1,1 @@
+Calling an overridable method during in a constructor may result in the use of uninitialized data. It may also leak the this reference of the partially constructed object. Only static, final or private methods should be invoked from a constructor.

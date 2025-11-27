@@ -1,0 +1,2 @@
+Cast operations should not trigger a ClassCastException
+This issue indicates that a cast operation will fail and throw a ClassCastException. To fix it, make sure only references to objects with a compatible type can be cast.

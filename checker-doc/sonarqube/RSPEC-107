@@ -1,0 +1,2 @@
+Methods should not have too many parameters
+Methods with a long parameter list are difficult to use because maintainers must figure out the role of each parameter and keep track of their position.

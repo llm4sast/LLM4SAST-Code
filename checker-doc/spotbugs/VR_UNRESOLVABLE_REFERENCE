@@ -1,0 +1,1 @@
+This class makes a reference to a class or method that cannot be resolved using against the libraries it is being analyzed with.

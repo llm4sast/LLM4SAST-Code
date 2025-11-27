@@ -1,0 +1,2 @@
+Value-based objects should not be serialized
+According to the documentation, A program may produce unpredictable results if it attempts to distinguish two references to equal values of a value-based class, whether directly via reference equality or indirectly via an appeal to synchronization, identity hashing, serialization….

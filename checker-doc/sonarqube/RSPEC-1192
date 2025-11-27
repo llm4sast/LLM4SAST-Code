@@ -1,0 +1,2 @@
+String literals should not be duplicated
+Duplicated string literals make the process of refactoring complex and error-prone, as any change would need to be propagated on all occurrences.

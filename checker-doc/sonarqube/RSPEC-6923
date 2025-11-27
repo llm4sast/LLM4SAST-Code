@@ -1,0 +1,2 @@
+Motion Sensor should not use gyroscope
+The android.hardware.SensorManager#getDefaultSensor offers two types of Motion Sensors: TYPE_ROTATION_VECTOR: a combination of the gyroscope, accelerometer, and magnetometer. TYPE_GEOMAGNETIC_ROTATION_VECTOR: a combination of the accelerometer and magnetometer.

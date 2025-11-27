@@ -1,0 +1,2 @@
+"ThreadGroup" should not be used
+The ThreadGroup class contains many deprecated methods like allowThreadSuspension, resume, stop, and suspend. Also, some of the non-deprecated methods are obsolete or not thread-safe, and still others are insecure ( activeCount, enumerate ). For these reasons, any use of ThreadGroup is suspicious and should be avoided.

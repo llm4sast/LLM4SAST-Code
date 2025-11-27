@@ -1,0 +1,2 @@
+Calls to methods should not trigger an exception
+This issue indicates that an exception will be thrown because a method is used incorrectly. To fix it, check the requirements of the method and fulfill them.

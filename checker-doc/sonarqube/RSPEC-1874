@@ -1,0 +1,2 @@
+"@Deprecated" code should not be used
+Code is sometimes annotated as deprecated by developers maintaining libraries or APIs to indicate that the method, class, or other programming element is no longer recommended for use. This is typically due to the introduction of a newer or more effective alternative.

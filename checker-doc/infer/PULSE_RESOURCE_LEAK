@@ -1,0 +1,7 @@
+In general, resources are entities such as files, sockets, connections, etc, that need to be closed after being used. In the following example, the object `fos` is not closed.
+```java
+public void foo () throws IOException {
+  FileOutputStream fos = new FileOutputStream(new File("name.txt"));
+  fos.write(7);
+}
+```

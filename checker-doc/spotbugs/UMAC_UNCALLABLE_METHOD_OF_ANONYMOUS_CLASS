@@ -1,0 +1,1 @@
+An anonymous class defines a method that is not directly invoked and does not override a method in a superclass. Since methods in other classes cannot directly invoke methods declared in an anonymous class, it seems that this method is uncallable and might be dead code.

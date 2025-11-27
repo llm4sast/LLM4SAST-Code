@@ -1,0 +1,2 @@
+"compareTo" should not be overloaded
+When implementing the Comparable<T>.compareTo method, the parameter’s type has to match the type used in the Comparable declaration. When a different type is used this creates an overload instead of an override, which is unlikely to be the intent.

@@ -1,0 +1,2 @@
+SQL queries should retrieve only necessary fields
+The Java Database Connectivity (JDBC) API provides the java.sql.Statement interface that allows to represent an SQL statement and to execute queries with the database.

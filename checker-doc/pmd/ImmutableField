@@ -1,0 +1,1 @@
+Reports non-final fields whose value never changes once object initialization ends, and hence may be marked final.

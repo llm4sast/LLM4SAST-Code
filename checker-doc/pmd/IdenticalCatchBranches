@@ -1,0 +1,1 @@
+Identical catch branches use up vertical space and increase the complexity of code without adding functionality. It's better style to collapse identical branches into a single multi-catch branch.

@@ -1,0 +1,2 @@
+"HttpSecurity" URL patterns should be correctly ordered
+Spring Framework, and, more precisely, the Spring Security component, allows setting up access control checks at the URI level. This is done by adding request matchers to the security configuration, each authorizing access to some resources depending on the incoming request entitlement. Similarly to firewall filtering rules, the order in which those matchers are defined is security relevant.

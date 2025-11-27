@@ -1,0 +1,1 @@
+It is somewhat confusing to have a field name matching the declaring type name. This probably means that type and/or field names should be chosen more carefully.

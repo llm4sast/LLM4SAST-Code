@@ -1,0 +1,2 @@
+Exception testing via JUnit ExpectedException rule should not be mixed with other assertions
+When testing exception via org.junit.rules.ExpectedException any code after the raised exception will not be executed, so adding subsequent assertions is wrong and misleading.

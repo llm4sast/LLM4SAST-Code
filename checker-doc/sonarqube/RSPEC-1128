@@ -1,0 +1,2 @@
+Unnecessary imports should be removed
+Unnecessary imports refer to importing types that are not used or referenced anywhere in the code. Although they don’t affect the runtime behavior of the application after compilation, removing them will: Improve the readability and maintainability of the code. Help avoid potential naming conflicts. Improve the build time, as the compiler has fewer lines to read and fewer types to resolve. Reduce the number of items the code editor will show for auto-completion, thereby showing fewer irrelevant suggestions.

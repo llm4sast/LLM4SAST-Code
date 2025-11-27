@@ -1,0 +1,2 @@
+"StringBuilder" and "StringBuffer" should not be instantiated with a character
+This rule raises an issue when the StringBuilder or StringBuffer constructor is called with a single character as an argument.

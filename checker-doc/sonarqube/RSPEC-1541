@@ -1,0 +1,2 @@
+Methods should not be too complex
+The cyclomatic complexity of methods should not exceed a defined threshold. Complex code can perform poorly and will in any case be difficult to understand and therefore to maintain.

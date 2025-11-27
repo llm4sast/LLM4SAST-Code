@@ -1,0 +1,1 @@
+Do not use hard coded values for cryptographic operations. Please store keys outside of source code.

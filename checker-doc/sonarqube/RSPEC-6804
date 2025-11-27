@@ -1,0 +1,2 @@
+"@Value" annotation should inject property or SpEL expression
+This rule reports when the Spring @Value annotation injects a simple value that does not contain an expression.

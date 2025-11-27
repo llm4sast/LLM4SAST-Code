@@ -1,0 +1,1 @@
+Throwing exceptions within a 'finally' block is confusing since they may mask other exceptions or code defects.

@@ -1,0 +1,1 @@
+Consecutive calls to StringBuffer/StringBuilder.append should be chained, reusing the target object. This can improve the performance by producing a smaller bytecode, reducing overhead and improving inlining.

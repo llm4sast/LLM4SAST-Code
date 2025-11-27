@@ -1,0 +1,1 @@
+This warning indicates that Infer was not able to determine a static upper bound on the execution cost of the procedure.

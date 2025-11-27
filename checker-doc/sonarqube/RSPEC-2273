@@ -1,0 +1,2 @@
+"Object.wait()", "Object.notify()" and "Object.notifyAll()" should only be called from synchronized code
+The Object.wait(…​), Object.notify() and Object.notifyAll() methods are used in multithreaded environments to coordinate interdependent tasks that are performed by different threads. These methods are not thread-safe and by contract, they require the invoking Thread to own the object’s monitor. If a thread invokes one of these methods without owning the object’s monitor an IllegalMonitorStateException is thrown.

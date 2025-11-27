@@ -1,0 +1,2 @@
+Beans in "@Configuration" class should have different names
+Naming conventions play a crucial role in maintaining code clarity and readability. The uniqueness of bean names in Spring configurations is vital to the clarity and readability of the code. When two beans share the same name within a configuration, it is not obvious to the reader which bean is being referred to. This leads to potential misunderstandings and errors.

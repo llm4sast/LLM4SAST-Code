@@ -1,0 +1,2 @@
+Unused "private" methods should be removed
+This rule raises an issue when a private method is never referenced in the code.

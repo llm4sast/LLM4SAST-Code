@@ -1,0 +1,10 @@
+[package]
+name = "no-precondition2"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+prusti-contracts = "0.2.0"
+
+# Declare that this crate is not part of a workspace
+[workspace]

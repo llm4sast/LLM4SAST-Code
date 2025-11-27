@@ -1,0 +1,2 @@
+"super.finalize()" should be called at the end of "Object.finalize()" implementations
+This rule is deprecated, and will eventually be removed.

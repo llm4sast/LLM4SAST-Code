@@ -1,0 +1,1 @@
+ArrayList is a much better Collection implementation than Vector if thread-safe operation is not required.

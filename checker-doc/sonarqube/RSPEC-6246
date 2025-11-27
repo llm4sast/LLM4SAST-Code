@@ -1,0 +1,2 @@
+Lambdas should not invoke other lambdas synchronously
+Invoking other Lambdas synchronously from a Lambda is a scalability anti-pattern. Lambdas have a maximum execution time before they timeout (15 minutes as of May 2021). Having to wait for another Lambda to finish its execution could lead to a timeout. A better solution is to generate events that can be consumed asynchronously by other Lambdas.

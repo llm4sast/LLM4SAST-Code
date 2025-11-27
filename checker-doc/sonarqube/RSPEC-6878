@@ -1,0 +1,2 @@
+Use record pattern instead of explicit field access
+Java 21 enhances Pattern Matching, introduced in Java 16, with a record pattern that decomposes records into local variables. This form should be used when all fields of a record are accessed within a block for improved readability. Nested record patterns are also allowed and should be used when a record field is another record, and all its fields are accessed.

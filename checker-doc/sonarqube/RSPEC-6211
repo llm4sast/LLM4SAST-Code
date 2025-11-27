@@ -1,0 +1,2 @@
+Custom getter method should not be used to override record's getter behavior
+Before records appeared in Java 16, there was a common way to represent getters for private fields of a class:  a method named "get" with a capitalized field name.

@@ -1,0 +1,2 @@
+Method overrides should not change contracts
+This rule raises an issue when an overriding method changes a contract defined in a superclass.

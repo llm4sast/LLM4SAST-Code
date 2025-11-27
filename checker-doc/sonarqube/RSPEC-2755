@@ -1,0 +1,2 @@
+XML parsers should not be vulnerable to XXE attacks
+This vulnerability allows the usage of external entities in XML.

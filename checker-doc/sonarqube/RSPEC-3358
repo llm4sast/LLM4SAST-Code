@@ -1,0 +1,2 @@
+Ternary operators should not be nested
+Nested ternaries are hard to read and can make the order of operations complex to understand.

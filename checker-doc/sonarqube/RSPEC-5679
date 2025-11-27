@@ -1,0 +1,2 @@
+OpenSAML2 should be configured to prevent authentication bypass
+The Security Assertion Markup Language (SAML) is a widely used standard in single sign-on systems. In a simplified version, the user authenticates to an Identity Provider which generates a signed SAML Response. This response is then forwarded to a Service Provider for validation and authentication.

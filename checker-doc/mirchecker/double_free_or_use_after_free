@@ -1,0 +1,1 @@
+In Rust, double free or use after free are severe memory safety issues. Double free means attempting to free the same memory block more than once, which can corrupt the memory management system. Use after free occurs when a program accesses memory that has already been freed.

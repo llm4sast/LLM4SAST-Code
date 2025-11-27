@@ -1,0 +1,2 @@
+Raw types should not be used
+Generic types should not be used raw (without type arguments). To fix this issue, add the type parameters.

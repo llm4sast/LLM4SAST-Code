@@ -1,0 +1,2 @@
+XML parsers should not be vulnerable to Denial of Service attacks
+XML parsers Denial of Service attacks target XML parsers, which are software components responsible for parsing and interpreting XML documents.

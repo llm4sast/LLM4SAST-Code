@@ -1,0 +1,1 @@
+We report this issue type when a function is loop-invariant and also expensive (i.e. at least has linear complexity as determined by the cost analysis).

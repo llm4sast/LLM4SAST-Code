@@ -1,0 +1,1 @@
+Uninitialization refers to using a variable or data structure without fully initializing it. For example, if a variable is declared but not assigned a value, it is considered incomplete. This can lead to undefined behavior, as the variable may contain garbage values

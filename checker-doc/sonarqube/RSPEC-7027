@@ -1,0 +1,2 @@
+Circular dependencies between classes in the same package should be resolved
+This rule reports circular dependencies between classes within the same package.

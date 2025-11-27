@@ -1,0 +1,1 @@
+In Rust, divided_by_zero is a critical error. Integer division by zero in Rust can trigger a runtime panic

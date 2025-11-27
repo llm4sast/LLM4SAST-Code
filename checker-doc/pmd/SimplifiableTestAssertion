@@ -1,0 +1,1 @@
+Reports test assertions that may be simplified using a more specific assertion method. This enables better error messages, and makes the assertions more readable.

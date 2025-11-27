@@ -1,0 +1,2 @@
+XML parsers should not load external schemas
+This rule is deprecated; use S2755 instead.

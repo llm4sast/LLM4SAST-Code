@@ -1,0 +1,1 @@
+Avoid instantiating String objects; this is usually unnecessary since they are immutable and can be safely shared.

@@ -1,0 +1,2 @@
+"Cloneables" should implement "clone"
+This rule raises an issue when a class implements the interface java.lang.Cloneable, but does not override the Object.clone() method.

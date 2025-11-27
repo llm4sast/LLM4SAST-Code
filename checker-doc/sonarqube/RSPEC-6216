@@ -1,0 +1,2 @@
+Reflection should not be used to increase accessibility of records' fields
+In general, altering or bypassing the accessibility of classes, methods, or fields violates the encapsulation principle and could lead to runtime errors. For records the case is even trickier: you cannot change the visibility of records’s fields and trying to update the existing value will lead to IllegalAccessException at runtime.

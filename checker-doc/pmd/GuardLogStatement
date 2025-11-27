@@ -1,0 +1,1 @@
+Whenever using a log level, one should check if it is actually enabled, or otherwise skip the associate String creation and manipulation, as well as any method calls. An alternative to checking the log level are substituting parameters, formatters or lazy logging with lambdas. The available alternatives depend on the actual logging framework.

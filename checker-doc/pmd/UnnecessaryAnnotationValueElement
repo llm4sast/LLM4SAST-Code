@@ -1,0 +1,1 @@
+Avoid the use of value in annotations when it's the only element.

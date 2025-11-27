@@ -1,0 +1,1 @@
+This warning indicates a potential data race in Java. A data race is a pair of accesses to the same member field such that one is a write, one occurs without any lock synchronization and the two accesses occur on threads (if known) which can run in parallel.

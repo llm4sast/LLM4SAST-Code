@@ -1,0 +1,2 @@
+Regex alternatives should not be redundant
+This rule raises an issue when multiple branches of a regex alternative match the same input.

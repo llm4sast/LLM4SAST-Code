@@ -1,0 +1,2 @@
+Methods with Spring proxy should not be called via "this"
+A method annotated with Spring’s @Async, @Cacheable or @Transactional annotations will not work as expected if invoked directly from within its class. This is because Spring generates a proxy class with wrapper code to manage the method’s asynchronicity ( @Async ), to cache methods invocations ( @Cacheable ), or to handle the transaction ( @Transactional ). However, when called using this, the proxy instance is bypassed, and the method is invoked directly without the required wrapper code.

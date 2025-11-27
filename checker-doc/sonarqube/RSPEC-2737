@@ -1,0 +1,2 @@
+"catch" clauses should do more than rethrow
+A catch clause that only rethrows the caught exception has the same effect as omitting the catch altogether and letting it bubble up automatically.

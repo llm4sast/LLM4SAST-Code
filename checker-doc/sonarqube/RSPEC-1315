@@ -1,0 +1,2 @@
+Track uses of "CHECKSTYLE:OFF" suppression comments
+This rule allows you to track the use of the Checkstyle suppression comment mechanism.

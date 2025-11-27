@@ -1,0 +1,1 @@
+Pointer misalignment is a memory access issue. Memory access operations typically require pointers to be aligned to specific byte boundaries. When a pointer is not properly aligned, a pointer misalignment error occurs

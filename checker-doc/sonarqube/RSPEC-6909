@@ -1,0 +1,2 @@
+Constant parameters in a "PreparedStatement" should not be set more than once
+The java.sql.PreparedStatement represents a precompiled SQL statement that can be efficiently executed multiple times.

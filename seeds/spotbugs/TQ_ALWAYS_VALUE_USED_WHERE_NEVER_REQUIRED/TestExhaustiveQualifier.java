@@ -1,0 +1,24 @@
+import jsr305.*;
+import javax.annotation.meta.When;
+import edu.umd.cs.findbugs.annotations.ExpectWarning;
+import edu.umd.cs.findbugs.annotations.NoWarning;
+public class TestExhaustiveQualifier {
+    @ExhaustiveQualifier(value = ExhaustiveQualifier.Color.RED, when = When.ALWAYS)
+    Object redField;
+    @ExhaustiveQualifier(value = ExhaustiveQualifier.Color.RED, when = When.NEVER)
+    Object neverRedField;
+    @ExhaustiveQualifier(value = ExhaustiveQualifier.Color.BLUE, when = When.ALWAYS)
+    Object blueField;
+    @ExpectWarning("TQ")
+    public void report1(@ExhaustiveQualifier(value = ExhaustiveQualifier.Color.BLUE, when = When.ALWAYS) Object v) { redField = v; }
+    @ExpectWarning("TQ")
+    public void report1a(@AlwaysBlue Object v) { redField = v; }
+    @NoWarning("TQ")
+    public void noReport(@NeverBlue @NeverGreen Object v) { redField = v; }
+    @ExpectWarning("TQ")
+    public void report2(@NeverBlue @NeverGreen Object v) { neverRedField = v; }
+    @ExpectWarning("TQ")
+    public void report3(@NeverBlue Object v) { blueField = v; }
+    @ExpectWarning("TQ")
+    public void report4(@ExhaustiveQualifier(value = ExhaustiveQualifier.Color.BLUE, when = When.NEVER) Object v) { blueField = v; }
+}

@@ -1,0 +1,2 @@
+Fields in non-serializable classes should not be "transient"
+Fields marked as transient in a Serializable class will be ignored during serialization and consequently not written out to a file (or stream). This can be useful in situations such as where the content of a field can be recomputed from other fields. To reduce the output size, this field can be marked as transient and recomputed when a given object is deserialized. Since transient is very specific to classes that implement Serializable, it is superfluous in classes that do not.

@@ -1,0 +1,1 @@
+It is a good practice to avoid reusing public identifiers from the Java Standard Library as field names in your code. Doing so can lead to confusion and potential conflicts, making it harder to understand and maintain your codebase.

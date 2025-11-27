@@ -1,0 +1,1 @@
+The code calls putNextEntry(), immediately followed by a call to closeEntry(). This results in an empty JarFile entry. The contents of the entry should be written to the JarFile between the calls to putNextEntry() and closeEntry().

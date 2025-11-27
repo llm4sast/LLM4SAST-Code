@@ -1,0 +1,2 @@
+Regex lookahead assertions should not be contradictory
+This rule raises an issue when a regex lookahead contradicts the rest of the regex.

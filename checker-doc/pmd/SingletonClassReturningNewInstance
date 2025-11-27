@@ -1,0 +1,1 @@
+A singleton class should only ever have one instance. Failure to check whether an instance has already been created may result in multiple instances being created.

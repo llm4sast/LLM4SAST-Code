@@ -1,0 +1,1 @@
+For classes that only have static methods, consider making them utility classes.

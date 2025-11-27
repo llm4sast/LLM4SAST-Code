@@ -1,0 +1,1 @@
+The code synchronizes on an apparently unshared boxed primitive, such as an Integer. The existing code might be OK, but it is confusing and a future refactoring, such as the "Remove Boxing" refactoring in IntelliJ, might replace this with the use of an interned Integer object shared throughout the JVM, leading to very confusing behavior and potential deadlock.

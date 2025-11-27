@@ -1,0 +1,2 @@
+Parentheses should be removed from a single lambda parameter when its type is inferred
+Lambda expressions with only one argument with an inferred type (i.e., no explicit type declaration) can be written without parentheses around that single parameter. This syntax is simpler, more compact and readable than using parentheses and is therefore preferred. This rule is automatically disabled when the project’s sonar.java.source is lower than 8, as lambda expressions were introduced in Java 8.

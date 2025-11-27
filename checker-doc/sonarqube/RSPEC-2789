@@ -1,0 +1,2 @@
+"null" should not be used with "Optional"
+Optional acts as a container object that may or may not contain a non-null value. It is introduced in Java 8 to help avoid NullPointerException. It provides methods to check if a value is present and retrieve the value if it is present. Optional is used instead of null values to make the code more readable and avoid potential errors. It is a bad practice to use null with Optional because it is unclear whether a value is present or not, leading to confusion and potential NullPointerException errors.

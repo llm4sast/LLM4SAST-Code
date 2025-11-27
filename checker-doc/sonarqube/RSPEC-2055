@@ -1,0 +1,2 @@
+The non-serializable super class of a "Serializable" class should have a no-argument constructor
+Java serialization is the conversion from objects to byte streams for storage or transmission. And later, java deserialization is the reverse conversion, it reconstructs objects from byte streams.

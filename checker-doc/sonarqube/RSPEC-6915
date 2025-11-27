@@ -1,0 +1,2 @@
+"String.indexOf" should be used with correct ranges
+Java 21 adds new String.indexOf methods that accept ranges ( beginIndex, to endIndex ) rather than just a start index. A StringIndexOutOfBounds can be thrown when indicating an invalid range, namely when: beginIndex > endIndex (eg: beginIndex and endIndex arguments are mistakenly reversed). beginIndex < 0 (eg: because the older String.indexOf(what, fromIndex) accepts negative values).

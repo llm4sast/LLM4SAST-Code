@@ -1,0 +1,1 @@
+Do not use hard coded initialization vector in cryptographic operations. Please use a randomly generated IV.

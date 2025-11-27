@@ -1,0 +1,2 @@
+Standard outputs should not be used directly to log anything
+In software development, logs serve as a record of events within an application, providing crucial insights for debugging. When logging, it is essential to ensure that the logs are: easily accessible uniformly formatted for readability properly recorded securely logged when dealing with sensitive data Those requirements are not met if a program directly writes to the standard outputs (e.g., System.out, System.err). That is why defining and using a dedicated logger is highly recommended.

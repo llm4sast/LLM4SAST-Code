@@ -1,0 +1,2 @@
+Persistent entities should not be used as arguments of "@RequestMapping" methods
+With Spring, when a request mapping method is configured to accept bean objects as arguments, the framework will automatically bind HTTP parameters to those objects' properties. If the targeted beans are also persistent entities, the framework will also store those properties in the storage backend, usually the application’s database.

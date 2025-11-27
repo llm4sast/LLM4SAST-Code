@@ -1,0 +1,1 @@
+When declaring and initializing array fields or variables, it is not necessary to explicitly create a new array using new. Instead one can simply define the initial content of the array as a expression in curly braces.

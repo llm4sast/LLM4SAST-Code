@@ -1,0 +1,1 @@
+Method-level synchronization will pin virtual threads and can cause performance problems. Additionally, it can cause problems when new code is added to the method. Block-level ReentrantLock helps to ensure that only the code that needs mutual exclusion will be locked.

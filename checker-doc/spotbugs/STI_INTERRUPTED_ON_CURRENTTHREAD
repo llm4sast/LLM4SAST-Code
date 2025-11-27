@@ -1,0 +1,1 @@
+A method invokes the Thread.currentThread() call, just to call the interrupted() method. As interrupted() is a static method, it is more simple and clear to use Thread.interrupted().

@@ -1,0 +1,2 @@
+Reflection should not be used to increase accessibility of classes, methods, or fields
+Altering or bypassing the accessibility of classes, methods, or fields through reflection violates the encapsulation principle. This can break the internal contracts of the accessed target and lead to maintainability issues and runtime errors.

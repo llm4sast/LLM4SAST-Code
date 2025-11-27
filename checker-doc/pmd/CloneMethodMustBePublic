@@ -1,0 +1,1 @@
+The java manual says "By convention, classes that implement this interface should override Object.clone (which is protected) with a public method."

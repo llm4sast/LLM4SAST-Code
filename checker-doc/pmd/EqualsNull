@@ -1,0 +1,1 @@
+Tests for null should not use the equals() method. The '==' operator should be used instead.

@@ -1,0 +1,1 @@
+Loops should not be infinite. An infinite loop will never end while the program runs, meaning you have to kill the program to get out of the loop. Every loop should have an end condition, whether by meeting the loop’s termination condition or via a break statement.

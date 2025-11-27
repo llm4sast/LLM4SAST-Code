@@ -1,0 +1,2 @@
+Nested code blocks should not be used
+Nested code blocks create new scopes where variables declared within are inaccessible from the outside, and their lifespan ends with the block. Although this may appear beneficial, their usage within a function often suggests that the function is overloaded. Thus, it may violate the Single Responsibility Principle, and the function needs to be broken down into smaller functions. The presence of nested blocks that don’t affect the control flow might suggest possible mistakes in the code.

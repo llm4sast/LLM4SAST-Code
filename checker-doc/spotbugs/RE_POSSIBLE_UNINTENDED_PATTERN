@@ -1,0 +1,1 @@
+A String function is being invoked and "." or "|" is being passed to a parameter that takes a regular expression as an argument, e.g., s.replaceAll(".", "/") will return a String in which every character has been replaced by a '/' character.

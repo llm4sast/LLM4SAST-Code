@@ -1,0 +1,2 @@
+AssertJ methods setting the assertion context should come before an assertion
+Describing, setting error message or adding a comparator in AssertJ must be done before calling the assertion, otherwise, settings will not be taken into account.

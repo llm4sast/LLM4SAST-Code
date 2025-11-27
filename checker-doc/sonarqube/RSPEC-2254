@@ -1,0 +1,2 @@
+"HttpServletRequest.getRequestedSessionId()" should not be used
+This function uses a session ID that is supplied by the client. Because of this, the ID may not be valid or might even be spoofed.

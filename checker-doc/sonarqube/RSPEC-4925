@@ -1,0 +1,2 @@
+"Class.forName()" should not load JDBC 4.0+ drivers
+In the past, it was required to load a JDBC driver before creating a java.sql.Connection. Nowadays, when using JDBC 4.0 drivers, this is no longer required and Class.forName() can be safely removed because JDBC 4.0 (JDK 6) drivers available in the classpath are automatically loaded.

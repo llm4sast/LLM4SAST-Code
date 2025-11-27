@@ -1,0 +1,2 @@
+High frame rates should not be used
+The Frame Rate API allows applications to communicate their desired frame rate to the Android platform to enhance the user experience. The API is useful since many devices now offer varying refresh rates like 60Hz, 90Hz, or 120Hz.

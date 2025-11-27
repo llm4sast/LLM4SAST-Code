@@ -1,0 +1,2 @@
+Subclasses that add fields to classes that override "equals" should also override "equals"
+This rule raises an issue when a subclass of a class that overrides Object.equals introduces new fields but does not also override the Object.equals method.

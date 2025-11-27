@@ -1,0 +1,2 @@
+Statements should be on separate lines
+Putting multiple statements on a single line lowers the code readability and makes debugging the code more complex.

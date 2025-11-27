@@ -1,0 +1,1 @@
+Serializable classes should provide a serialVersionUID field. The serialVersionUID field is also needed for abstract base classes. Each individual class in the inheritance chain needs an own serialVersionUID field.

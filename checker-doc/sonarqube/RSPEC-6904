@@ -1,0 +1,2 @@
+Avoid using "FetchType.EAGER"
+FetchType is an enumeration in the Java Persistence API (JPA) that is used to define the fetching strategy for associations (relationships) between entities in a relational database. There are two main values for FetchType: FetchType.EAGER: the association is loaded immediately when the owning entity is loaded. FetchType.LAZY : the association is not loaded unless it is explicitly accessed.

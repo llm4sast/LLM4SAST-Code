@@ -1,0 +1,2 @@
+Reusable resources should be initialized at construction time of Lambda functions
+Resources that can be reused across multiple invocations of the Lambda function should be initialized at construction time.

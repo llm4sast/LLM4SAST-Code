@@ -1,0 +1,2 @@
+XML parsers should not allow inclusion of arbitrary files
+XML standard allows the inclusion of XML files with the xinclude element. When an XML parser component is set up with the http://apache.org/xml/features/xinclude feature, it will follow the standard and allow the inclusion of remote files.

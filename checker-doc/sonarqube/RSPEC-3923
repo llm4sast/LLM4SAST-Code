@@ -1,0 +1,2 @@
+All branches in a conditional structure should not have exactly the same implementation
+Having all branches of a switch or if chain with the same implementation indicates a problem. In the following code: if (b == 0) { // Noncompliant doOneMoreThing(); } else { doOneMoreThing(); } int b = a > 12 ? 4 : 4; // Noncompliant switch (i) { // Noncompliant case 1: doSomething(); break; case 2: doSomething(); break; case 3: doSomething(); break; default: doSomething(); } Either there is a copy-paste error that needs fixing or an unnecessary switch or if chain that should be removed.

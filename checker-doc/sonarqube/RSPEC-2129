@@ -1,0 +1,2 @@
+Constructors should not be used to instantiate "String", "BigInteger", "BigDecimal" and primitive-wrapper classes
+Calling constructors for String, BigInteger, BigDecimal and the objects used to wrap primitives is less efficient and less clear than relying on autoboxing or valueOf. Consider simplifying when possible for more efficient and cleaner code.

@@ -1,0 +1,1 @@
+SpotBugs didn't generate a warning that, according to an @ExpectedWarning annotation, is expected or desired.

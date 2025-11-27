@@ -1,0 +1,1 @@
+Expressions used in assertions must not produce side effects.

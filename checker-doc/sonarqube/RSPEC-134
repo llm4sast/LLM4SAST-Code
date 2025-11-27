@@ -1,0 +1,2 @@
+Control flow statements "if", "for", "while", "switch" and "try" should not be nested too deeply
+Nested control flow statements such as if, for, while, switch, and try are often key ingredients in creating what’s known as "Spaghetti code". This code smell can make your program difficult to understand and maintain. When numerous control structures are placed inside one another, the code becomes a tangled, complex web. This significantly reduces the code’s readability and maintainability, and it also complicates the testing process.

@@ -1,0 +1,1 @@
+Assigning a "null" to a variable (outside of its declaration) is usually bad form. Sometimes, this type of assignment is an indication that the programmer doesn't completely understand what is going on in the code.

@@ -1,0 +1,16 @@
+use tokio_postgres::Client;
+async fn test1() -> Result<(), anyhow::Error> {
+  let mut config = tokio_postgres::Config::new();
+  config
+      .host(std::env::var("HOST").expect("set HOST"))
+      .user(std::env::var("USER").expect("set USER"))
+      .password("")
+      .port(std::env::var("PORT").expect("set PORT"));
+  let (client, connection) = config.connect(NoTls).await?;
+  tokio::spawn(async move {
+      if let Err(e) = connection.await {
+      tracing::error!("postgres db connection error: {}", e);
+      }
+  });
+  Ok(())
+}

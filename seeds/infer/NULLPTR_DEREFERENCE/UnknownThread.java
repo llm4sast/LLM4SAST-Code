@@ -1,0 +1,62 @@
+import android.os.Binder;
+import android.os.RemoteException;
+import java.util.concurrent.Executor;
+class UnknownThread {
+  static Binder binder;
+  private static void doTransact() {
+    try { binder.transact(0, null, null, 0); } catch (RemoteException e) { }
+  }
+  @ForUiThread private final Executor mUiThreadExecutor = null;
+  @ForNonUiThread private final Executor mNonUiThreadExecutor = null;
+  Executor unknownThreadExecutor = null;
+  private static Executor getSomeExecutor() { return null; }
+  public void postBlockingCallToUnknownExecutorFieldOk() {
+    unknownThreadExecutor.execute(
+        new Runnable() {
+          @Override
+          public void run() { doTransact(); }
+        });
+  }
+  public void postBlockingCallToUnknownExecutorViaMethodOk() {
+    getSomeExecutor()
+        .execute(
+            new Runnable() {
+              @Override
+              public void run() { doTransact(); }
+            });
+  }
+  Object monitorA, monitorB;
+  public void postDeadlockToUnknownAndBackgroundBad() {
+    unknownThreadExecutor.execute(
+        new Runnable() {
+          @Override
+          public void run() {
+            synchronized (monitorA) { synchronized (monitorB) { } }
+          }
+        });
+    mNonUiThreadExecutor.execute(
+        new Runnable() {
+          @Override
+          public void run() {
+            synchronized (monitorB) { synchronized (monitorA) { } }
+          }
+        });
+  }
+  Object monitorC, monitorD;
+  public void postDeadlockToUIAndBackgroundBad() {
+    unknownThreadExecutor.execute(
+        new Runnable() {
+          @Override
+          public void run() {
+            synchronized (monitorC) { synchronized (monitorD) { } }
+          }
+        });
+    mUiThreadExecutor.execute(
+        new Runnable() {
+          @Override
+          public void run() {
+            synchronized (monitorD) { synchronized (monitorC) { } }
+          }
+        });
+  }
+}

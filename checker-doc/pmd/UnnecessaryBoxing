@@ -1,0 +1,1 @@
+Reports explicit boxing and unboxing conversions that may safely be removed, either because they would be inserted by the compiler automatically, or because they're semantically a noop (eg unboxing a value to rebox it immediately).

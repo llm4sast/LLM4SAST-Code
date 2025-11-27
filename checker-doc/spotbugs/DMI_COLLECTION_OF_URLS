@@ -1,0 +1,1 @@
+A method or field is or uses a Map or Set of URLs. Since both the equals and hashCode method of URL perform domain name resolution, this can result in a big performance hit. Consider using java.net.URI instead.

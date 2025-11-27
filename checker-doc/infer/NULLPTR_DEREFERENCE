@@ -1,0 +1,1 @@
+Infer reports null dereference bugs when it is possible that the null pointer is dereferenced, leading to a crash.

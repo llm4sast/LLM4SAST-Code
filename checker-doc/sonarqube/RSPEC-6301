@@ -1,0 +1,2 @@
+Mobile database encryption keys should not be disclosed
+When storing local data in a mobile application, it is common to use a database that can be encrypted. When encryption of this database is enabled, the encryption key must be protected properly.

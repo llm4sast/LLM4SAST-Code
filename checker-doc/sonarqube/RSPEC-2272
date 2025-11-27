@@ -1,0 +1,2 @@
+"Iterator.next()" methods should throw "NoSuchElementException"
+The java.util.Iterator.next() method must throw a NoSuchElementException when there are no more elements in the iteration. Any other behavior is non-compliant with the API contract and may cause unexpected behavior for users.

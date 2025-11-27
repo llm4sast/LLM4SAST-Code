@@ -1,0 +1,2 @@
+Local variable and method parameter names should comply with a naming convention
+Local variables and method parameters should be named consistently to communicate intent and improve maintainability. Rename your local variable or method parameter to follow your project’s naming convention to address this issue.

@@ -1,0 +1,2 @@
+"writeObject" argument must implement "Serializable"
+Serialization is a platform-independent mechanism for writing the state of an object into a byte-stream. For serializing the object, we call the writeObject() method of java.io.ObjectOutputStream class. Only classes that implement Serializable or extend a class that does it can successfully be serialized (or de-serialized). Attempting to write a class with the writeObject method of the ObjectOutputStream class that does not implement Serializable or extends a class that implements it, will throw an IOException.

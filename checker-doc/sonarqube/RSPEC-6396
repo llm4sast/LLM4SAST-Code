@@ -1,0 +1,2 @@
+Superfluous curly brace quantifiers should be avoided
+Curly brace quantifiers in regular expressions can be used to have a more fine-grained control over how many times the character or the sub-expression preceeding them should occur. They can be used to match an expression exactly n times with {n}, between n and m times with {n,m}, or at least n times with {n,}. In some cases, using such a quantifier is superfluous for the semantic of the regular expression, and it can be removed to improve readability.

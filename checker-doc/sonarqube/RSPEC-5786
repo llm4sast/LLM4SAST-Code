@@ -1,0 +1,2 @@
+JUnit5 test classes and methods should have default package visibility
+JUnit5 test classes and methods should generally have package visibility. To fix this issue, change their visibility to the default package visibility.

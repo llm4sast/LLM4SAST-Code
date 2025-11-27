@@ -1,0 +1,2 @@
+Superfluous "@ResponseBody" annotations should be removed
+The Spring framework’s @RestController annotation is equivalent to using the @Controller and @ResponseBody annotations together. As such, it is redundant to add a @ResponseBody annotation when the class is already annotated with @RestController.

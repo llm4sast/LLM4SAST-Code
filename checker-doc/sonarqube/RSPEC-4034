@@ -1,0 +1,2 @@
+"Stream" call chains should be simplified when possible
+When using the Stream API, call chains should be simplified as much as possible. Not only does it make the code easier to read, it also avoid creating unnecessary temporary objects.

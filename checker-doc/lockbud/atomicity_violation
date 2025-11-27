@@ -1,0 +1,1 @@
+Atomicity violations occur when two consecutive memory accesses to a shared variable are interleaved by an access from a different thread targeting the same variable.

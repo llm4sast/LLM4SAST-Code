@@ -1,0 +1,2 @@
+"iterator" should not return "this"
+An Iterable should not implement the Iterator interface or return this as an Iterator. The reason is that Iterator represents the iteration process itself, while Iterable represents the object we want to iterate over. The Iterator instance encapsulates state information of the iteration process, such as the current and next element. Consequently, distinct iterations require distinct Iterator instances, for which Iterable provides the factory method Iterable.iterator().

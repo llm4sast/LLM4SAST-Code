@@ -1,0 +1,1 @@
+A method is invoked in the constructor of the superclass. At this point, the fields of the class have not yet initialized.

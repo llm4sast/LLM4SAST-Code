@@ -1,0 +1,1 @@
+Methods that perform security checks should be prevented from being overridden, so they must be declared as private or final. Otherwise, these methods can be compromised when a malicious subclass overrides them and omits the checks. 

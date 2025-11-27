@@ -1,0 +1,1 @@
+Reports nested 'if' statements that can be merged together by joining their conditions with a boolean && operator in between.

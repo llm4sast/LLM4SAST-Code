@@ -1,0 +1,1 @@
+Classes that throw exceptions in their constructors are vulnerable to Finalizer attacks. A finalizer attack can be prevented, by declaring the class final, using an empty finalizer declared as final, or by a clever use of a private constructor.

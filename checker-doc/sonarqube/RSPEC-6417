@@ -1,0 +1,2 @@
+Collections should not be modified while they are iterated
+This rule raises an issue when a method modifies the size of a collection, while the same collection is iterated.

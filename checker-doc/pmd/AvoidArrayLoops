@@ -1,0 +1,1 @@
+Instead of manually copying data between two arrays, use the more efficient Arrays.copyOf or System.arraycopy method instead. To copy only part of the array, use Arrays.copyOfRange or System.arraycopy. If you want to copy/move elements inside the _same_ array (e.g. shift the elements), use System.arraycopy.

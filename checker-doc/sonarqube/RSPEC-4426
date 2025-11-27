@@ -1,0 +1,1 @@
+Cryptographic keys should be robust. This vulnerability exposes encrypted data to attacks whose goal is to recover the plaintext.

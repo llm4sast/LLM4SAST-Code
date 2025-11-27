@@ -1,0 +1,1 @@
+Detects when a class, interface, enum or annotation does not have a package definition.

@@ -1,0 +1,2 @@
+Dissimilar primitive wrappers should not be used with the ternary operator without explicit casting
+Using boxed values in a ternary operator does not simply return one operand or the other based on the condition. Instead, the values are unboxed and coerced to a common type, which can result in a loss of precision when converting one operand from int to float or from long to double. While this behavior is expected for arithmetic operations, it may be unexpected for the ternary operator. To avoid confusion or unexpected behavior, cast to a compatible type explicitly.

@@ -1,0 +1,1 @@
+Method lists Throwable in its throws clause. When declaring a method, the types of exceptions in the throws clause should be the most specific. Therefore, using Throwable in the throws clause would force the caller to either use it in its own throws clause, or use it in a try-catch block (when it does not necessarily contain any meaningful information about the thrown exception).

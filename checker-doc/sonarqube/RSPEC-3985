@@ -1,0 +1,2 @@
+Unused "private" classes should be removed
+This rule raises an issue when a private nested class is never used.

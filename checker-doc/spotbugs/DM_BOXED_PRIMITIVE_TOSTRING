@@ -1,0 +1,1 @@
+A boxed primitive is allocated just to call toString(). It is more effective to just use the static form of toString which takes the primitive value, e.g.: replace `new Byte(1).toString()` to `Byte.toString(1)`.

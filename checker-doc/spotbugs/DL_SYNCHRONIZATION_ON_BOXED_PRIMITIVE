@@ -1,0 +1,1 @@
+The code synchronizes on a boxed primitive constant, such as an Integer. Since Integer objects can be cached and shared, the code could be synchronizing on the same object as other, unrelated code, leading to unresponsiveness and possible deadlock.

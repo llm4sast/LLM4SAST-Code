@@ -1,0 +1,2 @@
+Case insensitive string comparisons should be made without intermediate upper or lower casing
+Using toLowerCase() or toUpperCase() to make case insensitive comparisons is inefficient because it requires the creation of temporary, intermediate String objects.

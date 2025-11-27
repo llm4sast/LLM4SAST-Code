@@ -1,0 +1,2 @@
+Conditionally executed code should be reachable
+Conditional expressions which are always true or false can lead to unreachable code.

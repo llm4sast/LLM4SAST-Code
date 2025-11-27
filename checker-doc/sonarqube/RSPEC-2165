@@ -1,0 +1,2 @@
+"finalize" should not set fields to "null"
+This rule raises an issue when a finalizer assign null to fields of the instance it is called on.

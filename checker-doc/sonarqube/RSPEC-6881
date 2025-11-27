@@ -1,0 +1,2 @@
+Virtual threads should be used for tasks that include heavy blocking operations
+With the introduction of virtual threads in Java 21, it is now possible to optimize the usage of the operating system threads by avoiding blocking them for asynchronous operations. Furthermore, virtual threads’s instantiation has very little overhead and they can be created in large quantities. This means that it can be more efficient to use them over the default platform threads for tasks that involve I/O or some other blocking operations.

@@ -1,0 +1,2 @@
+Receiving intents is security-sensitive
+Android applications can receive broadcasts from the system or other applications. Receiving intents is security-sensitive.

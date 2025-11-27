@@ -1,0 +1,1 @@
+Use after free is a programming error. It happens when a program tries to access memory that has already been freed.For example, if a pointer points to some memory which is then freed, and later the program tries to access the memory through that pointer, it's a use after free error. This can lead to undefined behavior.
